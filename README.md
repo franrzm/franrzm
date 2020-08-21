@@ -1,16 +1,57 @@
-### Hi there 👋
+# Hello World!
 
-<!--
-**FranRzM/franrzm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```typescript
+class WhoAmI extends SoftwareDeveloper {
 
-Here are some ideas to get you started:
+    name: string = 'Francisco Ruiz';
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    role: string = 'FullStack Web Developer';
+
+    technologies: Array<string> = [
+        'JavaScript',
+        'React',
+        'Node',
+        'PHP',
+        'Laravel',
+        'MySQL',
+        'HTML',
+        'CSS'
+    ];
+
+    learning: Array<string> = [
+        'TypeScript',
+        'Python',
+        'Docker',
+        ...this.technologies
+    ];
+
+    wantToLearn: Array<string> = [
+        'Deno',
+        'How to be rich',
+        'Rust or Golang...'
+    ];
+
+    hobbiesAndInterests: Array<string> = [
+        'Programming',
+        'Nature',
+        'Martial arts',
+        'Photography'
+    ];
+
+    socialMediaUsername: string = '@franrzm';
+
+    personalWebsite: string = 'https://www.franrzm.com/';
+
+    workingAt: string = 'https://www.biyectiva.com/';
+
+    constructor() {
+        super();
+
+        while(!this.dead) {
+            this.eat();
+            this.code();
+            // this.sleep();
+        }
+    }
+}
+```
