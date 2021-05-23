@@ -1,34 +1,33 @@
 # Hello World!
 
 ```typescript
-class WhoAmI extends SoftwareDeveloper {
+class Me extends SoftwareDeveloper {
 
     name: string = 'Francisco Ruiz';
 
     role: string = 'FullStack Web Developer';
 
     technologies: Array<string> = [
-        'JavaScript',
+        'JavaScript and TypeScript',
         'React',
         'Node',
         'PHP',
         'Laravel',
         'MySQL',
-        'HTML',
-        'CSS'
+        'Docker and docker-compose',
+        'HTML and CSS'
     ];
 
     learning: Array<string> = [
-        'TypeScript',
-        'Python',
-        'Docker',
+        'Golang',
+        'Testing',
         ...this.technologies
     ];
 
     wantToLearn: Array<string> = [
         'Deno',
         'How to be rich',
-        'Rust or Golang...'
+        'Rust'
     ];
 
     hobbiesAndInterests: Array<string> = [
