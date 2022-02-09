@@ -41,7 +41,7 @@ class Me extends SoftwareDeveloper {
 
     personalWebsite: string = 'https://www.franrzm.com/';
 
-    workingAt: string = 'https://www.biyectiva.com/';
+    workingAt: string = 'https://b2marketplace.com/';
 
     constructor() {
         super();
