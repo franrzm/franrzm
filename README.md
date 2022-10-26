@@ -1,56 +1,51 @@
 # Hello World!
 
 ```typescript
-class Me extends SoftwareDeveloper {
+class FranciscoRuiz extends SoftwareDeveloper {
+    role: string = 'Backend Developer';
 
-    name: string = 'Francisco Ruiz';
+    workingAt: CompanyWebsite = 'https://b2marketplace.com/';
 
-    role: string = 'FullStack Web Developer';
+    moreAboutMe: PersonalWebsite = 'https://www.franrzm.com/';
 
-    technologies: Array<string> = [
-        'JavaScript and TypeScript',
-        'React',
+    aka: SocialMediaUsername = '@franrzm';
+
+    skills: Skills[] = [
+        'SOLID principles and Clean Architectures',
+        'Testing',
+        'TypeScript',
         'Node',
         'PHP',
         'Laravel',
-        'MySQL',
-        'Docker and docker-compose',
-        'HTML and CSS'
+        'SQL',
+        'Docker',
+        'React and Vue'
     ];
 
-    learning: Array<string> = [
-        'Golang',
-        'Testing',
-        ...this.technologies
+    learning: Skills[] = [
+        ...this.skills,
+        'Golang'
     ];
 
-    wantToLearn: Array<string> = [
-        'Deno',
+    wantToLearn: Skills[] = [
         'How to be rich',
         'Rust'
     ];
 
-    hobbiesAndInterests: Array<string> = [
+    thingsILike: HobbiesAndInterests[] = [
         'Programming',
         'Nature',
-        'Martial arts',
-        'Photography'
+        'Martial arts'
     ];
 
-    socialMediaUsername: string = '@franrzm';
-
-    personalWebsite: string = 'https://www.franrzm.com/';
-
-    workingAt: string = 'https://b2marketplace.com/';
-
-    constructor() {
-        super();
-
-        while(!this.dead) {
-            this.eat();
-            this.code();
-            // this.sleep();
+    newDay(): void {
+        if(this.isDead) {
+            return;
         }
+
+        this.eat();
+        this.code();
+        // this.sleep();
     }
 }
 ```
