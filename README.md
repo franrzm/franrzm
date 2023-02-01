@@ -2,9 +2,9 @@
 
 ```typescript
 class FranciscoRuiz extends SoftwareDeveloper {
-    as: Role = 'Tech Lead - Backend Developer';
+    as: Role = 'Security Software Engineer';
 
-    at: CompanyWebsite = 'https://widitrade.com/';
+    at: CompanyWebsite = 'https://www.scalefast.com/';
 
     moreAboutMe: PersonalWebsite = 'https://www.franrzm.com/';
 
